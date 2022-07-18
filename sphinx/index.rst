@@ -6,10 +6,13 @@
 EEG_CFCprocessing's documentation!
 =============================================
 
+This is description of EEG_CFC processing.
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
    
+   summary
    code
 
 Indices and tables
