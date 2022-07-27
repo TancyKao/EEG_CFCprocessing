@@ -1,4 +1,4 @@
-code documentation
+Code example
 ==================
 
 .. automodule:: example1    

@@ -6,15 +6,22 @@
 EEG_CFCprocessing's documentation!
 =============================================
 
-This is description of EEG_CFC processing.
+Guide for the analysis of Phase-Amplitude Cross Frequency Coupling (PA-CFC)
+
+General information
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
    
-   summary
-   code
-
+   Introduction
+   Installation
+   Set Up
+   CFC Analysis
+   Visualize Signals
+   Post-hoc Analysis   
+   References
+   code   
+   
 Indices and tables
 ==================
 
