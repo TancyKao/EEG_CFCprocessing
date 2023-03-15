@@ -34,14 +34,6 @@ The files contain staging, arousal and respiratory events as scored by accredite
 
 
 
-Data Preparation 
------------------
-
-Stuff in section
-
-
-
-
 Generate dataset to Wonambi
 ---------------------------
 
