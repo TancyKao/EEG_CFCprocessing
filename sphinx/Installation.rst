@@ -1,6 +1,8 @@
 Installation
 ============
 
+This section will teach you how to download and set up Python and get EEG CFC analysis.
+
 The EEG CFC analysis is performed in a Python environment with some dependences. Make sure if you have python 3.6 or higher installed.
 
 1.	Install Python (v.3+) through the Miniconda installer. Download the installer corresponding to your system from: https://docs.conda.io/en/latest/miniconda.html
@@ -9,12 +11,5 @@ The EEG CFC analysis is performed in a Python environment with some dependences.
 
 3.	Install other dependencies by typing the following commands:
 
- pip install matplotlib pingouin spyder wonambi tensorpac xlrd pyqt5
+    pip install matplotlib pingouin spyder wonambi tensorpac xlrd pyqt5
 
-
-Linux / MacOS
--------------
-stuff
-
-Windows
--------

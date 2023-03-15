@@ -12,14 +12,20 @@
 #
 import os
 import sys
+
+#from os.path import abspath, dirname
+from datetime import datetime
+now = datetime.now()
 sys.path.insert(0, os.path.abspath('../'))
+#cur_dir = abspath(dirname(__file__))
 
 
 # -- Project information -----------------------------------------------------
 
 project = 'EEG_CFCprocessing'
-copyright = '2022, TK'
 author = 'TK'
+copyright = "2022-{}, ".format(now.year) + author
+
 
 # The full version, including alpha/beta/rc tags
 release = '0.1'
@@ -66,3 +72,5 @@ html_theme_options = {
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+html_logo = 'img/brain_icon.png'

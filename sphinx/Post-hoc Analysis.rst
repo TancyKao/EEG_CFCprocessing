@@ -14,3 +14,9 @@ Stuff in section
 Statistic Analysis
 ------------------
 Stuff in section
+
+Descriptive statistics
+~~~~~~~~~~~~~~~~~~~~~~
+
+Inferential statistics
+~~~~~~~~~~~~~~~~~~~~~~

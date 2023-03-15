@@ -3,7 +3,14 @@ CFC Analysis
 
 Run PAC
 --------------
-Stuff in section
+
+.. admonition:: Step 1 
+   
+   Step 1 here!
+
+.. admonition:: Step 2
+   
+   Step 2 here!
 
 
 Output PAC
