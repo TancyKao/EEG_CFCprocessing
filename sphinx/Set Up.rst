@@ -18,7 +18,19 @@ The cleaned overnight high-density EEG recordings.fdt and .set. The .fdt file co
 
 
 2. Sleep staging and scored event files: 
-The files contain staging, arousal and respiratory events as scored by accredited sleep technologists were saved in .txt or .csv format. Data in both files were synchronised to the PSG data;
+The files contain staging, arousal and respiratory events as scored by accredited sleep technologists were saved in txt or csv format. Data in both files were synchronised to the PSG data;
+
+.. raw:: html
+
+   <table>
+     <tr>
+       <td><img src="img/staging.png"></td>
+       <td><img src="img/scoredEvents.png"></td>
+     </tr>
+   </table>
+
+
+3. Rejected channels and epochs files: Lists of poor quality EEG channels and artifect epochs were saved in txt or csv format as separate files.
 
 .. raw:: html
 
@@ -30,7 +42,9 @@ The files contain staging, arousal and respiratory events as scored by accredite
    </table>
 
 
-3. Rejected channels and epochs files: Lists of poor quality EEG channels and artifect epochs were saved in .txt or csv format as separate files.
+
+Data Organization
+-----------------
 
 
 
@@ -38,3 +52,6 @@ Generate dataset to Wonambi
 ---------------------------
 
 Stuff in section
+
+
+
