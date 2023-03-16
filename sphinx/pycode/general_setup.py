@@ -41,7 +41,7 @@ else:
 mypath = prefix+'\\Sleep\\SleepSoftware\\Coupling_python\\CFC_080920\\py_code'
 #print('\n' + mypath)
 
-# tag::path_function[]
+# end::path_function[]
 
 sys.path.append(mypath)#<-- change this to path containing scripts
 from Woolcock import importit
@@ -56,17 +56,17 @@ import pandas as pd
 root_dir = 'S:\\Sleep\\SleepSoftware\\Coupling_Python\\CFC_080920\\'
 in_dir = root_dir + 'individual\\'
 
-# tag::root_function[]
+# end::root_function[]
 
 
 # tag::ind_function[]
 cohort = 'TrackingSheet_HdEEG.xlsx'
-# tag::ind_function[]
+# end::ind_function[]
 
 
 # tag::chan_function[]
 chan = ['E10', 'E20', 'E30']
-# tag::chan_function[]
+# end::chan_function[]
 
 #sys.exit()
 

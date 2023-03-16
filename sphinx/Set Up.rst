@@ -42,16 +42,17 @@ The files contain staging, arousal and respiratory events as scored by accredite
    </table>
 
 
+The above folder contents were then converted to a single .xml annotations file, to be used in all further analyses. 
+
 
 Data Organization
 -----------------
 
+a folder contain individual dataset
+excel file to run
 
+copy the folder in S drive
 
-Generate dataset to Wonambi
----------------------------
-
-Stuff in section
 
 
 
