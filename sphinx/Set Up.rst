@@ -36,7 +36,9 @@ The files contain staging, arousal and respiratory events as scored by accredite
    :header-rows: 0
 
    * - .. image:: img/rejchans.png
+          :alt: Rejected channels
      - .. image:: img/rejepochs.png
+          :alt: Rejected epochs
 
 
 The above folder contents were then converted to a single .xml annotations file, to be used in all further analyses. 
