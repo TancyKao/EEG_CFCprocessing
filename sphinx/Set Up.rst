@@ -20,26 +20,23 @@ The cleaned overnight high-density EEG recordings.fdt and .set. The .fdt file co
 2. Sleep staging and scored event files: 
 The files contain staging, arousal and respiratory events as scored by accredited sleep technologists were saved in txt or csv format. Data in both files were synchronised to the PSG data;
 
-.. raw:: html
+.. list-table::
+   :widths: 50 50
+   :header-rows: 0
 
-   <table>
-     <tr>
-       <td><img src="img/staging.png"></td>
-       <td><img src="img/scoredEvents.png"></td>
-     </tr>
-   </table>
+   * - .. image:: img/staging.png
+     - .. image:: img/scoredEvents.png
+
 
 
 3. Rejected channels and epochs files: Lists of poor quality EEG channels and artifect epochs were saved in txt or csv format as separate files.
 
-.. raw:: html
+.. list-table::
+   :widths: 50 50
+   :header-rows: 0
 
-   <table>
-     <tr>
-       <td><img src="img/rejchans.png"></td>
-       <td><img src="img/rejepochs.png"></td>
-     </tr>
-   </table>
+   * - .. image:: img/rejchans.png
+     - .. image:: img/rejepochs.png
 
 
 The above folder contents were then converted to a single .xml annotations file, to be used in all further analyses. 
@@ -48,11 +45,40 @@ The above folder contents were then converted to a single .xml annotations file,
 Data Organization
 -----------------
 
-a folder contain individual dataset
-excel file to run
+The organization and location of data are critical for the proper functioning of Python scripts. For current scripts to compute CFC, the required data structure is as follows:
 
-copy the folder in S drive
+.. image:: img/dataorg.png
+    :width: 400px
+    :align: center
+    :height: 500px
+    :alt: alternate text
 
 
+1.  Main folder: contains individuval folder, pyCodes, and TrackingSheet.xlsx. 
 
+2.  Individuval folder: each subject folder should follow the same naming convention. It doesn’t matter what they are called, as long as it is consistent, and doesn’t contain spaces (e.g. ID_01)
+
+3.  Within each subject folder, the following files should contain :
+
+  a.  ID_01.fdt and ID_01.set
+
+  b.  ID_01_staging.txt
+
+  c.  ID_01_ScoredEvents.txt
+
+  d.  ID_01_rejepochs.txt
+
+  e.  ID_01_rejchannels.txt
+
+  See 'Data Preparation' section for the details of each item.
+
+4. pyCodes: contains all python scripts
+
+5. TrackingSheet.xlsx
+
+Rename the subject IDs in the 'ID' column of the 'TrackingSheet.xlsx' file to match the naming convention used in the previous section. Additionally, add a column titled 'System' with the recording system name (e.g. EGI) for each subject. 
+
+If you have multiple subjects, you can include all subject IDs in the 'ID' column and the corresponding recording system in the 'System' column. You should able to run the scripts for all subjects' data at once.
+
+The script will import all the data information into an annotations file for each subject, so that these can be used for all future analysis.
 

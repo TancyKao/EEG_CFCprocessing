@@ -14,6 +14,7 @@ General information
    :maxdepth: 2
    
    Introduction
+   ComputeCFC
    Installation
    Set Up
    CFC Analysis
