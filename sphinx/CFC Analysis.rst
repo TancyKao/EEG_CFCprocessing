@@ -248,7 +248,7 @@ The methodology of detecting events in the Wonambi can be found
 6. Output data
 ------------------------
 
-.. image:: img/wonambiout.png
+.. image:: img/wonambiOut.png
     :width: 400px
     :align: center
     :height: 500px
