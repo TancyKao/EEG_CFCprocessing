@@ -135,12 +135,11 @@ Output file
  the method name (e.g. 'Staresina2015') as well as the consensus events labelled
  
  'swa'.
+
+- 3 CSV files are generated for each subject, containing the SWA parameters:
 1. <ID>_<CHANNEL>_slowwave_detsw_Staresina2015<METHOD>_<FREQUENCY RANGE>Hz
 2.<ID>_<CHANNEL>_slowwave
 3.slowwave_<CHANEEL>_dataset (a summary file)
-
-- 3 CSV files are generated for each subject, containing the SWA parameters:
-
 
 
 3. Detect Spindle event (Whales_setup_spindle.py in py_code folder)
