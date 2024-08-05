@@ -138,7 +138,9 @@ Output file
 
 - 3 CSV files are generated for each subject, containing the SWA parameters:
 1. <ID>_<CHANNEL>_slowwave_detsw_Staresina2015<METHOD>_<FREQUENCY RANGE>Hz
+
 2.<ID>_<CHANNEL>_slowwave
+
 3.slowwave_<CHANEEL>_dataset (a summary file)
 
 
@@ -226,7 +228,13 @@ A new annotation file per subject, with individual marked spindles labelled by
  the method name (e.g. 'Moelle2011') as well as the consensus events labelled
  'spindle'.
 
-A CSV output is generated for each subject, containing the spindle parameters.
+3 CSV output files are generated for each subject, containing the spindle parameters.
+1. <ID>_<CHANNEL>_spindle
+
+2.<ID>_<CHANNEL>_spindle_times
+
+3.spindle_<CHANEEL>_dataset (a summary file)
+
 
 
 4. Graphic User Interface
