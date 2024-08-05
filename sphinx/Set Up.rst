@@ -76,9 +76,9 @@ The organization and location of data are critical for the proper functioning of
 
 4. pyCodes: contains all python scripts
 
-5. TrackingSheet.xlsx
+5. TrackingSheet.xlsx / TrackingSheet_HdEEG.xlsx
 
-Rename the subject IDs in the 'ID' column of the 'TrackingSheet.xlsx' file to match the naming convention used in the previous section. Additionally, add a column titled 'System' with the recording system name (e.g. EGI) for each subject. 
+Rename the subject IDs in the 'ID' column of the 'TrackingSheet.xlsx' / 'TrackingSheet_HdEEG.xlsx' file to match the naming convention used in the previous section. Additionally, add a column titled 'System' with the recording system name (e.g. EGI) for each subject. 
 
 If you have multiple subjects, you can include all subject IDs in the 'ID' column and the corresponding recording system in the 'System' column. You should able to run the scripts for all subjects' data at once.
 
