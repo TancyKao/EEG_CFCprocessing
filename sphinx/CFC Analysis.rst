@@ -10,7 +10,7 @@ CFC Analysis
 
 All the data analysis based on the Python package "Wonambi". 
 
-1. Read EEG dataset 
+1. Read EEG dataset (general_setup.py in py_code folder)
 -------------------
 
 The first step is set up EEG dataset for wonambi. You can find the script in "general_setup.py"
@@ -24,7 +24,7 @@ The first step is set up EEG dataset for wonambi. You can find the script in "ge
    :start-after: tag::path_function[]
    :end-before: end::path_function[]
 
-1.2. Identify the path of each individual folder 
+1.2. Identify the path of the individual folder 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. literalinclude:: pycode/general_setup.py
@@ -62,7 +62,7 @@ The output file will be in the following format:
 - <Subject-ID>.xml = annotations file with scored staging, artefacts and arousals
 
 
-2. Detect Slow wave event 
+2. Detect Slow wave event (Whales_setup_swa.py in py_code folder)
 -------------------------
 
 2.1. Identify the path of Python code
@@ -75,7 +75,7 @@ The output file will be in the following format:
    :end-before: end::path_function[]
 
 
-2.2. Identify the path of each individual folder 
+2.2. Identify the path of the individual folder 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. literalinclude:: pycode/Whales_setup_swa.py
@@ -96,7 +96,7 @@ The output file will be in the following format:
 2.4. Setup SWA method
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-Define the SWA method to use. For the details of each method, refer to the `Wonambi Methods documentation <https://wonambi-python.github.io/gui/methods.html>`
+Define the SWA method to use. For the details of each method, refer to the `Wonambi Methods documentation <https://wonambi-python.github.io/gui/methods.html>, <https://wonambi-python.github.io/api/wonambi.detect.slowwave.html>`
 
 .. literalinclude:: pycode/Whales_setup_swa.py
    :language: python
@@ -136,11 +136,13 @@ Output file
  
  'swa'.
 
+- 3 CSV files are generated for each subject, containing the SWA parameters:
+1. <ID>_<CHANNEL>_slowwave_detsw_Staresina2015<METHOD>_<FREQUENCY RANGE>Hz
+2.<ID>_<CHANNEL>_slowwave
+3.slowwave_<CHANEEL>_dataset (a summary file)
 
-- A CSV output is generated for each subject, containing the SWA parameters.
 
-
-3. Detect Spindle event
+3. Detect Spindle event (Whales_setup_spindle.py in py_code folder)
 ------------------------
 
 3.1. Identify the path of Python code
@@ -153,7 +155,7 @@ Output file
    :end-before: end::path_function[]
 
 
-3.2. Identify the path of each individual folder 
+3.2. Identify the path of the individual folder 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. literalinclude:: pycode/Whales_setup_spindle.py
