@@ -24,7 +24,7 @@ Import data into Wonambi
 
 
 
-3.	Navigate to the study (i.e. .edf file or .fdt file) and click Open.
+3.	Navigate to the study (i.e. set file) and click Open.
 
 4.	Next open the Annotations file (with sleep staging and event markers), by clicking Load Annotations in the toolbar.
 
