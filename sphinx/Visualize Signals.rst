@@ -26,7 +26,8 @@ Import data into Wonambi
 
 3.	Navigate to the original folder of the data, then choose the file with the following format : '_________fil.mff.bc1pass_relabelChans.set', and click Open.
 
-4.	Next open the Annotations file (with sleep staging and event markers), by clicking Load Annotations in the toolbar.
+4.	Next, open the Annotations file (with sleep staging and event markers), by clicking Load Annotations in the toolbar.
+The Annotations file needs to be located in the following path: 'individual' folder-> participant folder-> wonambi-> xml file. 
 
 5.	Navigate to the annotations (.xml file) and click Open.
 
