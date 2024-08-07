@@ -27,6 +27,10 @@ Beofre running the 'run_acc.py' script, you will need to:
 3) **source**- create a folder for each subject. Within each subject folder create 'slowwave' and 'spindle' folders with the relevant data.
 
 An example for the data organization:
-
+.. image:: img/org_raw.png
+    :width: 300px
+    :align: center
+    :height: 200px
+    :alt: alternate text
 
 
