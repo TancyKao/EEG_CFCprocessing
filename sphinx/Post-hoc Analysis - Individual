@@ -16,17 +16,17 @@ More details about the outpus will be explained in elaboration below.
 .. _5_:
 
 
-1. Beofre running the code, you will need to:
-1.1. Create a new sub-folder in the 'Main folder', i.e 'raw_data'.
-(A reminder for the data organization):
-.. image:: img/dataorg.png
-    :width: 400px
-    :align: center
-    :height: 500px
-    :alt: alternate text
+1. Preperation:
+**NOTICE : this script is based on the outputs of the follwing codes: general_setup, Whales_setup_swa, Whales_setup_spindle.
 
+Beofre running the 'run_acc.py' script, you will need to:
+1.1. Create a new sub-folder in the 'Main folder', i.e 'raw_data'.
 1. 2. Inside the 'raw_data' folder, create the following folders:
 1) **errors**- keep empty.
-2) **hypno**- insert to this folder all the 4 txt files of the subjects 
-3) **source** 
+2) **hypno**- insert to this folder all the 4 txt files of the subjects. 
+3) **source**- create a folder for each subject. Within each subject folder create 'slowwave' and 'spindle' folders with the relevant data.
+
+An example for the data organization:
+
+
 
