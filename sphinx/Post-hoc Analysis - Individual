@@ -1,4 +1,32 @@
-#Post-hoc Analysis
+# Post-hoc Analysis
 
-##Individual Level
+## Individual Level ('run_acc.py' script, based on functions from 'all_fxns.py')
+### The script's outputs include the following:
+1. Count/ density of the coupled spindles
+2. Cleaned csv files for slow-waves/spindles events (outliers are replacing)
+3. Summary of the outliers
+
+**For each sleep stage, will be created a seperated folder with its relevant csv files. 
+More details about the outpus will be explained in elaboration below.  
+
+.. _1_Preperation:
+.. _2_:
+.. _3_:
+.. _4_:
+.. _5_:
+
+
+1. Beofre running the code, you will need to:
+1.1. Create a new sub-folder in the 'Main folder', i.e 'raw_data'.
+(A reminder for the data organization):
+.. image:: img/dataorg.png
+    :width: 400px
+    :align: center
+    :height: 500px
+    :alt: alternate text
+
+1. 2. Inside the 'raw_data' folder, create the following folders:
+1) **errors**- keep empty.
+2) **hypno**- insert to this folder all the 4 txt files of the subjects 
+3) **source** 
 
