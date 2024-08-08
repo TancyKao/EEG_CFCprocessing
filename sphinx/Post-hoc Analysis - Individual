@@ -41,6 +41,12 @@ stage - can be NREM/ N2/ SWS
 
 2. Running the code, meaning of the code's parts: 
 2.1. Generating the 'results' folder:
+.. literalinclude:: pycode/run_aac-single_chan.py
+   :language: python
+   :linenos:
+   :start-after: tag::folders[]
+   :end-before: end::folders[]
+
 if not os.path.exists(check_dir):
     make_direct(ppt_id, root_dir)
 
