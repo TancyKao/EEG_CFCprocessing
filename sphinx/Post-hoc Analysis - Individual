@@ -39,12 +39,17 @@ root_dir - the path for the raw_data folder (for example:'S:\\Sleep\\SleepSoftwa
 channels - relevant electrodes (for example: ['E1'])
 stage - can be NREM/ N2/ SWS
 
-2. Running the code: 
-2.1. The meaning of the code's parts:
+2. Running the code, meaning of the code's parts: 
+2.1. Generating the 'results' folder:
 if not os.path.exists(check_dir):
     make_direct(ppt_id, root_dir)
 
 This part is generating in the 'raw_data' folder a new sub-folder named 'results', with the following folders inside:
+.. image:: img/results_list.png
+    :width: 300px
+    :align: center
+    :height: 200px
+    :alt: alternate text
 
 
 
