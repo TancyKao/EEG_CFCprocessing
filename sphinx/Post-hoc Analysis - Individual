@@ -40,7 +40,7 @@ channels - relevant electrodes (for example: ['E1'])
 stage - can be NREM/ N2/ SWS
 
 2. Running the code, meaning of the code's parts: 
-2.1. Generating the 'results' folder:
+2.1. Generating the 'results' folder and sub-folders:
 .. literalinclude:: pycode/run_aac-single_chan.py
    :language: python
    :linenos:
@@ -54,7 +54,17 @@ This part is generating in the 'raw_data' folder a new sub-folder named 'results
     :height: 200px
     :alt: alternate text
 
-Notice that this function is generating only empty folders, which will served us later with the following functions.
+Notice that this function is generating only empty folders, which will served us later on with the following functions.
+
+2.2. Merging files, removing outliers, slipting events:
+The following part in the code include the functions: 'slowwave', 'fast_spindles' and 'slow_spindles'.
+Each of these 3 functions are doing the following:
+2.2.1. 
+
+2.3. Reciving the coupling percentage:
+The following part in the code include the founction: 'get_aac_fast_spindles', 'get_aac_slow_spindles'.
+
+2.4. calling to the relevant functions:
 
 
 
