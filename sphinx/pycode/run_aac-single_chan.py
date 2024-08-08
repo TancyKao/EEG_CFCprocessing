@@ -16,24 +16,23 @@ from all_fxns import *
 
 
 ######## MANUAL INPUT ########
-
+# tag::parameters[]
 ppt_id = 'MCI03JP_AL'
 #root_dir = 'X:\\Coupling\\2. total slowosc and spindles\\raw_data\\' # folder containing bids_dir
 root_dir='S:\\Sleep\\SleepSoftware\\Coupling_Python_PC2\\CFC_080920\\raw_data\\'
 #channels = ['E' + str(i) for i in range(0,20) if i not in [0]] - there is something wrong with channel 71 in this subject, very little detected spindles
 channels = ['E1']
 # channels='C4'
-
-
 stage = 'NREM' # NREM N2 SWS
-
+# end::parameters[]
 #######################################################################################################
 
 check_dir = root_dir + 'results\\cleaned\\{}\\spindle\\fast'.format(ppt_id)
 
+# tag::folders[]
 if not os.path.exists(check_dir):
     make_direct(ppt_id, root_dir)
-    
+# end::folders[]    
 
 def slowwave():    
     filetype = 'slowwave'
@@ -101,4 +100,6 @@ def get_aac_slow_spindles():
 
 slowwave()
 fast_spindles()
+slow_spindles()
 get_aac_fast_spindles()
+get_aac_slow_spindles()
