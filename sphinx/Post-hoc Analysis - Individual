@@ -63,6 +63,13 @@ Each of these 3 functions are doing the following:
    :end-before: end::slowwave[]
 
 2.2.1. merge_files():
+**For slow waves**
+merge the files from the 'source'->'slowwave', so the new file will have all the columns from the 'ID_CHAN_slowwave' file + the column 'trough_time' from the 'ID_CHAN_slowwave_detsw_method' csv file. 
+
+
+
+**For spindles**
+
 
 2.2.2. remove_outliers_physio
 check_outliers_stats
