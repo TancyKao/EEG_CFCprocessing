@@ -34,6 +34,7 @@ if not os.path.exists(check_dir):
     make_direct(ppt_id, root_dir)
 # end::folders[]    
 
+# tag::slowwave[]
 def slowwave():    
     filetype = 'slowwave'
     merge_files(filetype, ppt_id, channels, root_dir)
@@ -46,7 +47,7 @@ def slowwave():
     
     hypno = load_hypno(ppt_id, root_dir)
     split_events(hypno, filetype, ppt_id, channels, root_dir)
-    
+# end::slowwave[]    
 
 def fast_spindles():
     filetype = 'spindle'
@@ -98,8 +99,10 @@ def get_aac_slow_spindles():
     
     aac(stage_duration, spindle_type, ppt_id, root_dir, channels, stage)
 
+# tag::functions[]
 slowwave()
 fast_spindles()
 slow_spindles()
 get_aac_fast_spindles()
 get_aac_slow_spindles()
+# end::functions[]
