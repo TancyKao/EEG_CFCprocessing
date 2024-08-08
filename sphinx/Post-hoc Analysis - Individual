@@ -12,9 +12,6 @@ More details about the outpus will be explained in elaboration below.
 .. _1_:Preperation
 .. _2_:Running the code
 .. _3_:Outputs
-.. _4_:
-.. _5_:
-
 
 1. Preperation:
 **NOTICE : this script is based on the outputs of the follwing codes: general_setup, Whales_setup_swa, Whales_setup_spindle.
@@ -59,15 +56,25 @@ Notice that this function is generating only empty folders, which will served us
 2.2. Merging files, removing outliers, slipting events:
 The following part in the code include the functions: 'slowwave', 'fast_spindles' and 'slow_spindles'.
 Each of these 3 functions are doing the following:
+.. literalinclude:: pycode/run_aac-single_chan.py
+   :language: python
+   :linenos:
+   :start-after: tag::slowwave[]
+   :end-before: end::slowwave[]
+
 2.2.1. 
+
 
 2.3. Reciving the coupling percentage:
 The following part in the code include the founction: 'get_aac_fast_spindles', 'get_aac_slow_spindles'.
 
-2.4. calling to the relevant functions:
 
-
-
+2.4. calling the relevant functions:
+.. literalinclude:: pycode/run_aac-single_chan.py
+   :language: python
+   :linenos:
+   :start-after: tag::functions[]
+   :end-before: end::functions[]
 
 
 
