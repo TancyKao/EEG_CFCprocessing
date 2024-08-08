@@ -62,12 +62,25 @@ Each of these 3 functions are doing the following:
    :start-after: tag::slowwave[]
    :end-before: end::slowwave[]
 
-2.2.1. 
+2.2.1. merge_files():
+
+2.2.2. remove_outliers_physio
+check_outliers_stats
+remove_outliers_stats
+
+2.2.3. output_summary
+
+2.2.4. load_hypno
+
+2.2.5. split_events
 
 
 2.3. Reciving the coupling percentage:
 The following part in the code include the founction: 'get_aac_fast_spindles', 'get_aac_slow_spindles'.
-
+check_summfile
+load_hypno
+calc_duration
+aac
 
 2.4. calling the relevant functions:
 .. literalinclude:: pycode/run_aac-single_chan.py
