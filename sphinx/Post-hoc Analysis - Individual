@@ -47,15 +47,17 @@ stage - can be NREM/ N2/ SWS
    :start-after: tag::folders[]
    :end-before: end::folders[]
 
-if not os.path.exists(check_dir):
-    make_direct(ppt_id, root_dir)
-
 This part is generating in the 'raw_data' folder a new sub-folder named 'results', with the following folders inside:
 .. image:: img/results_list.png
     :width: 300px
     :align: center
     :height: 200px
     :alt: alternate text
+
+Notice that this function is generating only empty folders, which will served us later with the following functions.
+
+
+
 
 
 
