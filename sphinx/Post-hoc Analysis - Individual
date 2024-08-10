@@ -67,6 +67,11 @@ Example of the 'slowwave' function, which responsible for merging relevant files
 The following part in the code include the founction: 'get_aac_fast_spindles', 'get_aac_slow_spindles'.
 
 Example for the 'get_aac_fast_spindles' code:
+.. literalinclude:: pycode/run_aac-single_chan.py
+   :language: python
+   :linenos:
+   :start-after: tag::acc[]
+   :end-before: end::acc[]
 
 2.4. calling the relevant functions:
 .. literalinclude:: pycode/run_aac-single_chan.py
