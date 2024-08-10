@@ -79,7 +79,7 @@ def slow_spindles():
     split_events(hypno, filetype, ppt_id, channels, root_dir, spindle_type)
     
 
-
+# tag::acc[]
 def get_aac_fast_spindles():
     spindle_type = 'fast'
     
@@ -88,7 +88,7 @@ def get_aac_fast_spindles():
     stage_duration = calc_duration(hypno, stage)
     
     aac(stage_duration, spindle_type, ppt_id, root_dir, channels, stage)
-    
+# end::acc[]
     
 def get_aac_slow_spindles():
     spindle_type = 'slow'
